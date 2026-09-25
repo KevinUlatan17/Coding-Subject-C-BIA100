@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium&display=swap');
+
+body {
+  background-color: #EBF0F4;
+  font-family: 'Oxanium', sans-serif;
+}
+
+h1 {
+  color: #000000;
+  margin: 0;
+}
+
+p {
+  text-align: center;
+}
+
+.shop-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.shop-header-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.shop-header p {
+  text-align: left;
+  margin: 0;
+}
+
+img {
+  width: 200px;
+  height: 160px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.product-card {
+  background-color: #1e2a46;
+  border: 1px solid #5c0d20;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.product-card .name {
+  color: #fffefe;
+  font-weight: bold;
+}
+
+.product-card .desc {
+  color: #d6d3da;
+  font-size: 13px;
+  margin: 6px 0;
+}
+
+.product-card .price {
+  color: #f8f6f6;
+  font-weight: bold;
+}
+
+.buy {
+  display: inline-block;
+  background-color: #ab2432;
+  color: #f8f6f6;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.buy:hover {
+  background-color: #7a1a24;
+}
