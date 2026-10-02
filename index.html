@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Student activity compilation of Kevin Q. Ulatan: projects and experiences.">
+  <title>Kevin Q. Ulatan | Student Activity Compilation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="progress"></div>
+
+  <header class="nav">
+    <a href="#home" class="logo">KQ<span>.</span></a>
+    <button id="menu-btn" aria-label="Menu">☰</button>
+    <nav id="links">
+      <a href="#home">Home</a>
+      <a href="#activities">Activities</a>
+      <a href="#about">About</a>
+      <button id="theme-btn" aria-label="Toggle theme">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="blob b1"></div><div class="blob b2"></div>
+      <div class="container hero-grid">
+        <div>
+          <span class="chip">👋 Welcome to my portfolio</span>
+          <h1>Hi, I'm <span class="grad">Kevin Q. Ulatan</span></h1>
+          <p class="role">I'm a <b id="typed"></b><span class="caret">|</span></p>
+          <p class="lead">2nd year BS Marketing student at Mapúa Malayan Colleges Laguna. When I'm not studying market trends, you can find me playing video games or following sports.</p>
+          <div class="cta">
+            <a href="#activities" class="btn primary">View my activities</a>
+            <a href="#contact" class="btn ghost">Contact me</a>
+          </div>
+        </div>
+        <div class="avatar-wrap">
+          <img class="avatar" src="fb picture.jfif" alt="Photo of Kevin Q. Ulatan">
+          <div class="tag t1">🏆 Marketer</div>
+          <div class="tag t2">💻 Vibe Coder</div>
+          <div class="tag t3">🎨 Creative</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="activities" class="container section">
+      <p class="eyebrow">Activities</p>
+      <h2>Featured Activities</h2>
+      <div class="cards">
+        <article class="card reveal">
+          <div class="thumb t-a">🛒👟</div>
+          <div class="body">
+            <h3>Web Marketplace</h3>
+            <p>An online footwear marketplace connecting shoe enthusiasts, buyers, and verified sellers to discover, buy, and trade authentic sneakers and everyday kicks in one place.</p>
+            <div class="stack"><span>HTML</span><span>CSS</span></div>
+            <a class="link" href="https://kevinulatan17.github.io/Coding-Subject-C-BIA100/" target="_blank" rel="noopener">View Project →</a>
+          </div>
+        </article>
+        <article class="card reveal">
+          <div class="thumb t-b">💻</div>
+          <div class="body">
+            <h3>E-Portfolio</h3>
+            <p>A digital portfolio presenting my work, skills, and accomplishments in one accessible, structured space.</p>
+            <div class="stack"><span>HTML</span><span>CSS</span></div>
+            <a class="link" href="Mod-2-Activity/index.html" target="_blank" rel="noopener">View Project →</a>
+          </div>
+        </article>
+              <article class="card reveal">
+          <div class="thumb t-c">🎯📈</div>
+          <div class="body">
+            <h3>Marketing Campaign</h3>
+            <p>A strategic marketing plan combining social media outreach, market research, and targeted messaging to promote a brand and drive measurable customer engagement.</p>
+            <div class="stack"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a class="link" href="https://github.com/yourusername" target="_blank" rel="noopener">View Project →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="container section">
+      <p class="eyebrow">About</p>
+      <h2>A little about me</h2>
+      <div class="about reveal">
+        <p>Hi, I’m Kevin, a 2nd-year BS Marketing student at Mapúa Malayan Colleges Laguna with a strong focus on brand strategy and sports management. Outside of class, I spend my time playing video games and following football and basketball. Driven by my passion for competition and creative strategy, my goal after graduation is to become a marketer for a professional sports club.</p>
+        <ul class="facts">
+          <li><b>School</b> Mapúa Malayan Colleges Laguna</li>
+          <li><b>Grade</b> 2nd Year College Student</li>
+          <li><b>Location</b> San Pedro City, Laguna</li>
+          <li><b>Interests</b> Sports, Video Games, Music</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="container section">
+      <div class="contact reveal">
+        <h2>Let's connect</h2>
+        <p>Have a question or want to work together? Send me a message.</p>
+        <a href="mailto:2025kqulatan@live.mcl.edu.ph" class="btn light">2025kqulatan@live.mcl.edu.ph</a>
+        <div class="socials">
+          <a href="https://github.com/KevinUlatan17" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/kevin-ulatan-1697992b2?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.instagram.com/chichudogss?stkn=MWlscjM5YmpyOGJncA==" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> Kevin Ulatan · Made with HTML, CSS &amp; JavaScript</footer>
+  <button id="top-btn" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
